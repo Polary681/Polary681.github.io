@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Grammar Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="quiz-container" id="home-page">
+        <h1>Welcome to the English Grammar Quiz</h1>
+        <div class="page-select">
+            <p>Select a topic:</p>
+            <button class="select-button" onclick="startQuiz('present-simple')">Present Simple</button>
+            <button class="select-button" onclick="startQuiz('past-simple')">Past Simple</button>
+            <button class="select-button" onclick="startQuiz('present-continuous')">Present Continuos</button>
+            <button class="select-button" onclick="startQuiz('past-continuous')">Past Continuos</button>
+            <button class="select-button" onclick="startQuiz('present-perfect')">Present Perfect</button>
+            <button class="select-button" onclick="startQuiz('past-perfect')">Past Perfect</button>
+            <button class="select-button" onclick="startQuiz('future-simple')">Future Simple</button>
+            <button class="select-button" onclick="startQuiz('modals')">Modals</button>
+        </div>
+    </div>
+    
+    <div class="quiz-container" id="quiz-page" style="display:none;">
+        <h1 id="quiz-title">English Grammar Quiz</h1>
+        <p id="question">Loading question...</p>
+        <ul id="options"></ul>
+        <div id="feedback" style="display:none; margin: 10px 0; padding: 10px; border-radius: 5px;"></div>
+        <button id="next-question">Next Question</button>
+        <div class="score" id="score">Score: 0</div>
+        <button id="return-home" style="margin-top: 20px;">Return to Topics</button>
+    </div>
+</body>
+</html>
