@@ -28,9 +28,12 @@
         <p id="question">Loading question...</p>
         <ul id="options"></ul>
         <div id="feedback" style="display:none; margin: 10px 0; padding: 10px; border-radius: 5px;"></div>
-        <button id="next-question">Next Question</button>
+        <button id="next-question" onclick="idk()">Next Question</button>
         <div class="score" id="score">Score: 0</div>
-        <button id="return-home" style="margin-top: 20px;">Return to Topics</button>
+        <button id="return-home" style="margin-top: 20px;" onclick="location.reload()">Return to Topics</button>
     </div>
+
+    <audio id="correct-sound" src="sounds/correct-6033.mp3" preload="auto"></audio>
+    <audio id="wrong-sound" src="sounds/wrong-47985.mp3" preload="auto"></audio>
 </body>
 </html>
