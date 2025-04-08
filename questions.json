@@ -12,8 +12,8 @@
       {
         "question": "Fill in the blank: They ______ (live) in New York.",
         "options": [
-          "live",
           "lives",
+          "live",
           "living"
         ],
         "answer": "live"
@@ -30,9 +30,9 @@
       {
         "question": "What time does she usually ______ (wake) up?",
         "options": [
-          "wake",
+          "waking",
           "wakes",
-          "waking"
+          "wake"
         ],
         "answer": "wake"
       },
@@ -49,8 +49,8 @@
         "question": "Which sentence is in the present simple tense?",
         "options": [
           "I am reading a book.",
-          "I read a book every day.",
-          "I will read a book tomorrow."
+          "I will read a book tomorrow.",
+          "I read a book every day."
         ],
         "answer": "I read a book every day."
       },
