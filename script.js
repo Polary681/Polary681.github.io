@@ -6,7 +6,7 @@ let answered = false;
 let questionsData = {};
 let quizTimer;
 let remainingTime = 180;
-let allQuestionsAnswered = false; 
+let allQuestionsAnswered = false;
 
 async function loadQuestions() {
     try {
@@ -26,11 +26,7 @@ loadQuestions().then(data => {
 function toggleDarkMode() {
     const sun = document.getElementById("dark-mode-toggle");
     document.body.classList.toggle("dark-mode");
-    if (document.body.classList.contains("dark-mode")) {
-        sun.textContent = "☀️";
-    } else {
-        sun.textContent = "🌙";
-    }
+    sun.textContent = document.body.classList.contains("dark-mode") ? "☀️" : "🌙";
 }
 
 function startQuiz(topic) {
@@ -56,18 +52,21 @@ function getRandomTopic() {
 
 function fetchQuestion(topic) {
     const topicQuestions = questionsData[topic];
-    const unansweredQuestions = topicQuestions.filter((q, index) => !attemptedQuestions.some(attempt => attempt.question === q.question));
+    const unansweredQuestions = topicQuestions.filter((q, index) =>
+        !attemptedQuestions.some(attempt => attempt.index === index)
+    );
 
     if (unansweredQuestions.length === 0) {
         allQuestionsAnswered = true;
-        endQuiz(); // End the quiz when all questions are answered
+        endQuiz();
         return;
     }
 
     const randomIndex = Math.floor(Math.random() * unansweredQuestions.length);
     const randomQuestion = unansweredQuestions[randomIndex];
+    const questionIndex = topicQuestions.indexOf(randomQuestion);
+    randomQuestion.index = questionIndex;
 
-    attemptedQuestions.push({ question: randomQuestion.question, userAnswer: null }); // Save question text, not index
     displayQuestion(randomQuestion);
     updateProgress();
 }
@@ -76,7 +75,7 @@ function displayQuestion(questionData) {
     const questionContainer = document.getElementById("question");
     const optionsContainer = document.getElementById("options");
 
-    const { question, options, answer, tip } = questionData;
+    const { question, options, answer, tip, index } = questionData;
 
     questionContainer.textContent = question;
     optionsContainer.innerHTML = "";
@@ -85,15 +84,15 @@ function displayQuestion(questionData) {
     shuffleArray(options).forEach(option => {
         const li = document.createElement("li");
         li.textContent = option;
-        li.onclick = () => handleAnswer(li, answer, tip, questionData);
+        li.onclick = () => handleAnswer(li, answer, tip, index);
         li.title = tip || "";
         optionsContainer.appendChild(li);
     });
 }
 
-function handleAnswer(selectedOption, correctAnswer, tip, questionData) {
+function handleAnswer(selectedOption, correctAnswer, tip, questionIndex) {
     const allOptions = document.querySelectorAll("#options li");
-    let isCorrect = selectedOption.textContent === correctAnswer;
+    const isCorrect = selectedOption.textContent === correctAnswer;
 
     allOptions.forEach(option => {
         if (option.textContent === correctAnswer) {
@@ -116,9 +115,12 @@ function handleAnswer(selectedOption, correctAnswer, tip, questionData) {
         showTip(tip);
     }
 
-    attemptedQuestions = attemptedQuestions.map(q =>
-        q.question === questionData.question ? { ...q, userAnswer: selectedOption.textContent } : q
-    );
+    const existing = attemptedQuestions.find(q => q.index === questionIndex);
+    if (existing) {
+        existing.userAnswer = selectedOption.textContent;
+    } else {
+        attemptedQuestions.push({ index: questionIndex, userAnswer: selectedOption.textContent });
+    }
 
     disableOptions();
     displayScore();
@@ -193,14 +195,12 @@ function launchConfetti() {
         confetti.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
 
         confetti.animate([{
-                transform: 'translate(0, 0)',
-                opacity: 1
-            },
-            {
-                transform: `translate(${xOffset}px, ${yOffset}px)`,
-                opacity: 0
-            }
-        ], {
+            transform: 'translate(0, 0)',
+            opacity: 1
+        }, {
+            transform: `translate(${xOffset}px, ${yOffset}px)`,
+            opacity: 0
+        }], {
             duration: 1300 + Math.random() * 500,
             easing: 'ease-out',
             fill: 'forwards'
@@ -231,28 +231,36 @@ function updateTimerDisplay() {
 
 function endQuiz() {
     document.getElementById("quiz-page").style.display = "none";
-    document.getElementById("summary-page").style.display = "block"; // Display summary page
+    document.getElementById("summary-page").style.display = "block";
 
     const summaryContainer = document.getElementById("summary-container");
     summaryContainer.innerHTML = "";
 
     const topicQuestions = questionsData[currentTopic];
 
-    topicQuestions.forEach((questionData) => {
+    attemptedQuestions.forEach(({ index, userAnswer }) => {
+        const questionData = topicQuestions[index];
         const { question, answer } = questionData;
-
-        const userAnswer = attemptedQuestions.find(q => q.question === question)?.userAnswer;
         const isCorrect = userAnswer === answer;
 
         const result = document.createElement("div");
         result.classList.add("question-result");
+
         result.innerHTML = `
             <p><strong>${question}</strong></p>
-            <p>Your answer: <span style="color:${isCorrect ? 'green' : 'red'}">${userAnswer || 'No answer'}</span></p>
+            <p>Your answer: <span style="color:${isCorrect ? 'green' : 'red'}">${userAnswer}</span></p>
             <p>Correct answer: <span style="color:green">${answer}</span></p>
         `;
+
         summaryContainer.appendChild(result);
     });
+
+    const finalScore = document.createElement("div");
+    finalScore.innerHTML = `
+        <p><strong>Final Score: ${score}/${topicQuestions.length}</strong></p>
+        <p><strong>Streak: ${streak}</strong></p>
+    `;
+    summaryContainer.appendChild(finalScore);
 }
 
 function showRules() {
