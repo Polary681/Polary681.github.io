@@ -139,6 +139,7 @@ h1 {
 
 .dark-mode {
     background-color: #121212;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('img/Flag_of_the_United_Kingdom_\(3-5\).svg.png');
     color: #e0e0e0;
 }
 

@@ -23,7 +23,14 @@ loadQuestions().then(data => {
 });
 
 function toggleDarkMode() {
+    const sun = document.getElementById("dark-mode-toggle");
     document.body.classList.toggle("dark-mode");
+    if (document.body.classList.contains("dark-mode")){
+        sun.textContent = "☀️";
+    }
+    else{
+        sun.textContent = "🌙";
+    }
 }
 
 function startQuiz(topic) {
