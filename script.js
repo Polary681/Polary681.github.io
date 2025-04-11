@@ -5,7 +5,8 @@ let currentTopic = "present-simple";
 let answered = false;
 let questionsData = {};
 let quizTimer;
-let remainingTime = 180; 
+let remainingTime = 180;
+let allQuestionsAnswered = false; 
 
 async function loadQuestions() {
     try {
@@ -25,10 +26,9 @@ loadQuestions().then(data => {
 function toggleDarkMode() {
     const sun = document.getElementById("dark-mode-toggle");
     document.body.classList.toggle("dark-mode");
-    if (document.body.classList.contains("dark-mode")){
+    if (document.body.classList.contains("dark-mode")) {
         sun.textContent = "☀️";
-    }
-    else{
+    } else {
         sun.textContent = "🌙";
     }
 }
@@ -38,6 +38,7 @@ function startQuiz(topic) {
     score = 0;
     streak = 0;
     attemptedQuestions = [];
+    allQuestionsAnswered = false;
     document.getElementById("home-page").style.display = "none";
     document.getElementById("quiz-page").style.display = "block";
     document.getElementById("quiz-title").textContent = `English Grammar Quiz - ${currentTopic.replace("-", " ")}`;
@@ -55,15 +56,18 @@ function getRandomTopic() {
 
 function fetchQuestion(topic) {
     const topicQuestions = questionsData[topic];
-    const unansweredQuestions = topicQuestions.filter(q => !attemptedQuestions.includes(q.question));
+    const unansweredQuestions = topicQuestions.filter((q, index) => !attemptedQuestions.some(attempt => attempt.question === q.question));
 
     if (unansweredQuestions.length === 0) {
-        alert("All questions for this topic have been attempted.");
+        allQuestionsAnswered = true;
+        endQuiz(); // End the quiz when all questions are answered
         return;
     }
 
-    const randomQuestion = unansweredQuestions[Math.floor(Math.random() * unansweredQuestions.length)];
-    attemptedQuestions.push(randomQuestion.question);
+    const randomIndex = Math.floor(Math.random() * unansweredQuestions.length);
+    const randomQuestion = unansweredQuestions[randomIndex];
+
+    attemptedQuestions.push({ question: randomQuestion.question, userAnswer: null }); // Save question text, not index
     displayQuestion(randomQuestion);
     updateProgress();
 }
@@ -72,7 +76,7 @@ function displayQuestion(questionData) {
     const questionContainer = document.getElementById("question");
     const optionsContainer = document.getElementById("options");
 
-    const { question, options, answer } = questionData;
+    const { question, options, answer, tip } = questionData;
 
     questionContainer.textContent = question;
     optionsContainer.innerHTML = "";
@@ -81,12 +85,13 @@ function displayQuestion(questionData) {
     shuffleArray(options).forEach(option => {
         const li = document.createElement("li");
         li.textContent = option;
-        li.onclick = () => handleAnswer(li, answer, questionData.tip);
+        li.onclick = () => handleAnswer(li, answer, tip, questionData);
+        li.title = tip || "";
         optionsContainer.appendChild(li);
     });
 }
 
-function handleAnswer(selectedOption, correctAnswer, tip) {
+function handleAnswer(selectedOption, correctAnswer, tip, questionData) {
     const allOptions = document.querySelectorAll("#options li");
     let isCorrect = selectedOption.textContent === correctAnswer;
 
@@ -110,6 +115,10 @@ function handleAnswer(selectedOption, correctAnswer, tip) {
         document.getElementById("wrong-sound").play();
         showTip(tip);
     }
+
+    attemptedQuestions = attemptedQuestions.map(q =>
+        q.question === questionData.question ? { ...q, userAnswer: selectedOption.textContent } : q
+    );
 
     disableOptions();
     displayScore();
@@ -183,9 +192,14 @@ function launchConfetti() {
         confetti.style.top = `${startY}px`;
         confetti.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
 
-        confetti.animate([
-            { transform: 'translate(0, 0)', opacity: 1 },
-            { transform: `translate(${xOffset}px, ${yOffset}px)`, opacity: 0 }
+        confetti.animate([{
+                transform: 'translate(0, 0)',
+                opacity: 1
+            },
+            {
+                transform: `translate(${xOffset}px, ${yOffset}px)`,
+                opacity: 0
+            }
         ], {
             duration: 1300 + Math.random() * 500,
             easing: 'ease-out',
@@ -201,7 +215,7 @@ function startTimer() {
         remainingTime--;
         updateTimerDisplay();
 
-        if (remainingTime <= 0) {
+        if (remainingTime <= 0 || allQuestionsAnswered) {
             clearInterval(quizTimer);
             endQuiz();
         }
@@ -216,5 +230,43 @@ function updateTimerDisplay() {
 }
 
 function endQuiz() {
-    alert("The quiz has ended.");
+    document.getElementById("quiz-page").style.display = "none";
+    document.getElementById("summary-page").style.display = "block"; // Display summary page
+
+    const summaryContainer = document.getElementById("summary-container");
+    summaryContainer.innerHTML = "";
+
+    const topicQuestions = questionsData[currentTopic];
+
+    topicQuestions.forEach((questionData) => {
+        const { question, answer } = questionData;
+
+        const userAnswer = attemptedQuestions.find(q => q.question === question)?.userAnswer;
+        const isCorrect = userAnswer === answer;
+
+        const result = document.createElement("div");
+        result.classList.add("question-result");
+        result.innerHTML = `
+            <p><strong>${question}</strong></p>
+            <p>Your answer: <span style="color:${isCorrect ? 'green' : 'red'}">${userAnswer || 'No answer'}</span></p>
+            <p>Correct answer: <span style="color:green">${answer}</span></p>
+        `;
+        summaryContainer.appendChild(result);
+    });
+}
+
+function showRules() {
+    document.getElementById("home-page").style.display = "none";
+    document.getElementById("quiz-page").style.display = "none";
+    document.getElementById("rules-page").style.display = "block";
+}
+
+function goHome() {
+    document.getElementById("rules-page").style.display = "none";
+    document.getElementById("home-page").style.display = "block";
+}
+
+function toggleRuleSection(topicId) {
+    const rule = document.getElementById(`rule-${topicId}`);
+    rule.style.display = rule.style.display === "block" ? "none" : "block";
 }

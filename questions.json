@@ -1,865 +1,964 @@
 {
     "present-simple": [
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "He play tennis every weekend.",
-          "He plays tennis every weekend.",
-          "He playing tennis every weekend."
-        ],
-        "answer": "He plays tennis every weekend."
-      },
-      {
-        "question": "Fill in the blank: They ______ (live) in New York.",
-        "options": [
-          "lives",
-          "live",
-          "living"
-        ],
-        "answer": "live"
-      },
-      {
-        "question": "Which of these is the correct negative form?",
-        "options": [
-          "She not like coffee.",
-          "She doesn't like coffee.",
-          "She isn't like coffee."
-        ],
-        "answer": "She doesn't like coffee."
-      },
-      {
-        "question": "What time does she usually ______ (wake) up?",
-        "options": [
-          "waking",
-          "wakes",
-          "wake"
-        ],
-        "answer": "wake"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I goes to the gym every day.",
-          "I go to the gym every day.",
-          "I am go to the gym every day."
-        ],
-        "answer": "I go to the gym every day."
-      },
-      {
-        "question": "Which sentence is in the present simple tense?",
-        "options": [
-          "I am reading a book.",
-          "I will read a book tomorrow.",
-          "I read a book every day."
-        ],
-        "answer": "I read a book every day."
-      },
-      {
-        "question": "Fill in the blank: She ______ (work) in a hospital.",
-        "options": [
-          "works",
-          "working",
-          "worked"
-        ],
-        "answer": "works"
-      },
-      {
-        "question": "Which of these is the correct form?",
-        "options": [
-          "They play not football on Sundays.",
-          "They don't play football on Sundays.",
-          "They isn't play football on Sundays."
-        ],
-        "answer": "They don't play football on Sundays."
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I enjoy reading books.",
-          "I enjoying reading books.",
-          "I enjoys reading books."
-        ],
-        "answer": "I enjoy reading books."
-      },
-      {
-        "question": "Which of these is in the present simple tense?",
-        "options": [
-          "He eats lunch now.",
-          "He eats lunch every day.",
-          "He is eating lunch every day."
-        ],
-        "answer": "He eats lunch every day."
-      },
-      {
-        "question": "Fill in the blank: We ______ (have) two children.",
-        "options": [
-          "have",
-          "has",
-          "having"
-        ],
-        "answer": "have"
-      },
-      {
-        "question": "Choose the correct sentence.",
-        "options": [
-          "She don’t like pizza.",
-          "She doesn't like pizza.",
-          "She don't likes pizza."
-        ],
-        "answer": "She doesn't like pizza."
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "They go to the gym every week.",
-          "They going to the gym every week.",
-          "They are go to the gym every week."
-        ],
-        "answer": "They go to the gym every week."
-      },
-      {
-        "question": "Fill in the blank: I ______ (watch) TV every evening.",
-        "options": [
-          "watch",
-          "watches",
-          "watching"
-        ],
-        "answer": "watch"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "He don’t like the news.",
-          "He doesn't like the news.",
-          "He not likes the news."
-        ],
-        "answer": "He doesn't like the news."
-      },
-      {
-        "question": "Fill in the blank: She ______ (enjoy) her new job.",
-        "options": [
-          "enjoy",
-          "enjoys",
-          "enjoying"
-        ],
-        "answer": "enjoys"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I not know the answer.",
-          "I don't know the answer.",
-          "I doesn't know the answer."
-        ],
-        "answer": "I don't know the answer."
-      }
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He play tennis every weekend.",
+      "He plays tennis every weekend.",
+      "He playing tennis every weekend."
     ],
-    "past-simple": [
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I seen him yesterday.",
-          "I see him yesterday.",
-          "I saw him yesterday."
-        ],
-        "answer": "I saw him yesterday."
-      },
-      {
-        "question": "Fill in the blank: We ______ (visit) the museum last week.",
-        "options": [
-          "visited",
-          "visits",
-          "visiting"
-        ],
-        "answer": "visited"
-      },
-      {
-        "question": "Which sentence is in the past simple tense?",
-        "options": [
-          "I am watched the movie.",
-          "I watched the movie.",
-          "I will watch the movie."
-        ],
-        "answer": "I watched the movie."
-      },
-      {
-        "question": "Choose the correct sentence.",
-        "options": [
-          "They was tired last night.",
-          "They were tired last night.",
-          "They tired last night."
-        ],
-        "answer": "They were tired last night."
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "I eat breakfast at 8 a.m.",
-          "I ate breakfast at 8 a.m.",
-          "I eating breakfast at 8 a.m."
-        ],
-        "answer": "I ate breakfast at 8 a.m."
-      },
-      {
-        "question": "Fill in the blank: He ______ (not go) to the party yesterday.",
-        "options": [
-          "didn't go",
-          "doesn't go",
-          "wasn't going"
-        ],
-        "answer": "didn't go"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I bought a new phone yesterday.",
-          "I buy a new phone yesterday.",
-          "I buying a new phone yesterday."
-        ],
-        "answer": "I bought a new phone yesterday."
-      },
-      {
-        "question": "Which of these is the correct form?",
-        "options": [
-          "They didn't ate dinner yet.",
-          "They didn't eat dinner yet.",
-          "They don't ate dinner yet."
-        ],
-        "answer": "They didn't eat dinner yet."
-      },
-      {
-        "question": "Fill in the blank: I ______ (see) her at the concert last night.",
-        "options": [
-          "saw",
-          "seen",
-          "seeing"
-        ],
-        "answer": "saw"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "She gone to the store.",
-          "She went to the store.",
-          "She going to the store."
-        ],
-        "answer": "She went to the store."
-      },
-      {
-        "question": "Fill in the blank: They ______ (finish) the project last week.",
-        "options": [
-          "finished",
-          "finishes",
-          "finishing"
-        ],
-        "answer": "finished"
-      },
-      {
-        "question": "Which of these sentences is correct?",
-        "options": [
-          "I wasn't watching TV last night.",
-          "I am not watching TV last night.",
-          "I didn't watch TV last night."
-        ],
-        "answer": "I didn't watch TV last night."
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "He didn't enjoyed the movie.",
-          "He didn't enjoy the movie.",
-          "He don't enjoyed the movie."
-        ],
-        "answer": "He didn't enjoy the movie."
-      },
-      {
-        "question": "Fill in the blank: She ______ (read) a book last night.",
-        "options": [
-          "read",
-          "reads",
-          "reading"
-        ],
-        "answer": "read"
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "They wasn't at the meeting.",
-          "They weren't at the meeting.",
-          "They don't were at the meeting."
-        ],
-        "answer": "They weren't at the meeting."
-      },
-      {
-        "question": "Which of these is the correct past simple form?",
-        "options": [
-          "He writed a letter.",
-          "He wrote a letter.",
-          "He written a letter."
-        ],
-        "answer": "He wrote a letter."
-      }
+    "answer": "He plays tennis every weekend.",
+    "tip": "In present simple, add -s to the verb for he/she/it."
+  },
+  {
+    "question": "Fill in the blank: They ______ (live) in New York.",
+    "options": [
+      "lives",
+      "live",
+      "living"
     ],
-    "present-continuous": [
-      {
-        "question": "Which sentence is in the present continuous tense?",
-        "options": [
-          "I am reading a book right now.",
-          "I read a book right now.",
-          "I will read a book right now."
-        ],
-        "answer": "I am reading a book right now."
-      },
-      {
-        "question": "Fill in the blank: She ______ (watch) a movie at the moment.",
-        "options": [
-          "is watching",
-          "watches",
-          "watching"
-        ],
-        "answer": "is watching"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "They are going to the park.",
-          "They going to the park.",
-          "They goes to the park."
-        ],
-        "answer": "They are going to the park."
-      },
-      {
-        "question": "Which of these is in the present continuous tense?",
-        "options": [
-          "I am cooking dinner.",
-          "I cook dinner.",
-          "I will cook dinner."
-        ],
-        "answer": "I am cooking dinner."
-      },
-      {
-        "question": "Fill in the blank: He ______ (study) for his exams now.",
-        "options": [
-          "is studying",
-          "studying",
-          "study"
-        ],
-        "answer": "is studying"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "She is reading a book.",
-          "She reads a book.",
-          "She read a book."
-        ],
-        "answer": "She is reading a book."
-      },
-      {
-        "question": "Which sentence is in the present continuous tense?",
-        "options": [
-          "He is playing soccer now.",
-          "He played soccer now.",
-          "He play soccer now."
-        ],
-        "answer": "He is playing soccer now."
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "I am not working today.",
-          "I don't working today.",
-          "I am not work today."
-        ],
-        "answer": "I am not working today."
-      },
-      {
-        "question": "Fill in the blank: They ______ (arrive) now.",
-        "options": [
-          "are arriving",
-          "arrive",
-          "arrives"
-        ],
-        "answer": "are arriving"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "She is not liking the food.",
-          "She does not like the food.",
-          "She does not likes the food."
-        ],
-        "answer": "She does not like the food."
-      },
-      {
-        "question": "Which of these is in the present continuous tense?",
-        "options": [
-          "We are going to the beach.",
-          "We go to the beach.",
-          "We will go to the beach."
-        ],
-        "answer": "We are going to the beach."
-      }
+    "answer": "live",
+    "tip": "For 'they', use the base form of the verb in present simple."
+  },
+  {
+    "question": "Which of these is the correct negative form?",
+    "options": [
+      "She not like coffee.",
+      "She doesn't like coffee.",
+      "She isn't like coffee."
     ],
-    "past-continuous": [
-      {
-        "question": "Which sentence is in the past continuous tense?",
-        "options": [
-          "She was watching TV when I called her.",
-          "She watched TV when I called her.",
-          "She watching TV when I called her."
-        ],
-        "answer": "She was watching TV when I called her."
-      },
-      {
-        "question": "Fill in the blank: He ______ (sleep) when I arrived.",
-        "options": [
-          "was sleeping",
-          "sleep",
-          "is sleeping"
-        ],
-        "answer": "was sleeping"
-      },
-      {
-        "question": "Which of these is in the past continuous tense?",
-        "options": [
-          "I was working at 8 o'clock.",
-          "I worked at 8 o'clock.",
-          "I will work at 8 o'clock."
-        ],
-        "answer": "I was working at 8 o'clock."
-      },
-      {
-        "question": "Fill in the blank: They ______ (talk) when I entered the room.",
-        "options": [
-          "were talking",
-          "talked",
-          "are talking"
-        ],
-        "answer": "were talking"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "We were watching a movie when the lights went out.",
-          "We watched a movie when the lights went out.",
-          "We watch a movie when the lights went out."
-        ],
-        "answer": "We were watching a movie when the lights went out."
-      },
-      {
-        "question": "Which of these is in the past continuous tense?",
-        "options": [
-          "I was reading when you called.",
-          "I read when you called.",
-          "I am reading when you called."
-        ],
-        "answer": "I was reading when you called."
-      },
-      {
-        "question": "Fill in the blank: She ______ (study) when I arrived.",
-        "options": [
-          "was studying",
-          "studied",
-          "is studying"
-        ],
-        "answer": "was studying"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I was cooking dinner when the phone rang.",
-          "I cooked dinner when the phone rang.",
-          "I cook dinner when the phone rang."
-        ],
-        "answer": "I was cooking dinner when the phone rang."
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "They was playing basketball at 6 pm.",
-          "They were playing basketball at 6 pm.",
-          "They played basketball at 6 pm."
-        ],
-        "answer": "They were playing basketball at 6 pm."
-      },
-      {
-        "question": "Fill in the blank: She ______ (not listen) when I told her the news.",
-        "options": [
-          "wasn't listening",
-          "didn't listen",
-          "doesn't listen"
-        ],
-        "answer": "wasn't listening"
-      }
+    "answer": "She doesn't like coffee.",
+    "tip": "Negative sentences in present simple use 'doesn't' + base verb for he/she/it."
+  },
+  {
+    "question": "What time does she usually ______ (wake) up?",
+    "options": [
+      "waking",
+      "wakes",
+      "wake"
     ],
-    "modals": [
-      {
-        "question": "Which of these sentences is correct?",
-        "options": [
-          "I can swim very fast.",
-          "I can to swim very fast.",
-          "I can swimming very fast."
-        ],
-        "answer": "I can swim very fast."
-      },
-      {
-        "question": "Fill in the blank: You ______ (study) for the exam tomorrow.",
-        "options": [
-          "should study",
-          "must study",
-          "may study"
-        ],
-        "answer": "must study"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "He may go to the party.",
-          "He can to go to the party.",
-          "He may going to the party."
-        ],
-        "answer": "He may go to the party."
-      },
-      {
-        "question": "Fill in the blank: She ______ (not) go to the concert because she was sick.",
-        "options": [
-          "couldn't",
-          "can't",
-          "mustn't"
-        ],
-        "answer": "couldn't"
-      },
-      {
-        "question": "Which of these sentences is correct?",
-        "options": [
-          "You should to study for the test.",
-          "You should study for the test.",
-          "You should studying for the test."
-        ],
-        "answer": "You should study for the test."
-      },
-      {
-        "question": "Which of these sentences is correct?",
-        "options": [
-          "She can sings very well.",
-          "She can sing very well.",
-          "She can singing very well."
-        ],
-        "answer": "She can sing very well."
-      },
-      {
-        "question": "Fill in the blank: He ______ (might) be at home now.",
-        "options": [
-          "might",
-          "may",
-          "should"
-        ],
-        "answer": "might"
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "We may go to the park tomorrow.",
-          "We may to go to the park tomorrow.",
-          "We may going to the park tomorrow."
-        ],
-        "answer": "We may go to the park tomorrow."
-      },
-      {
-        "question": "Fill in the blank: She ______ (not) speak Spanish.",
-        "options": [
-          "can't",
-          "couldn't",
-          "shouldn't"
-        ],
-        "answer": "can't"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "He must to finish his homework.",
-          "He must finish his homework.",
-          "He must finished his homework."
-        ],
-        "answer": "He must finish his homework."
-      }
+    "answer": "wake",
+    "tip": "After 'does' in questions, use the base form of the verb."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I goes to the gym every day.",
+      "I go to the gym every day.",
+      "I am go to the gym every day."
     ],
+    "answer": "I go to the gym every day.",
+    "tip": "Use 'go' with 'I' in present simple. 'Goes' is for he/she/it."
+  },
+  {
+    "question": "Which sentence is in the present simple tense?",
+    "options": [
+      "I am reading a book.",
+      "I will read a book tomorrow.",
+      "I read a book every day."
+    ],
+    "answer": "I read a book every day.",
+    "tip": "Present simple describes regular habits or routines."
+  },
+  {
+    "question": "Fill in the blank: She ______ (work) in a hospital.",
+    "options": [
+      "works",
+      "working",
+      "worked"
+    ],
+    "answer": "works",
+    "tip": "For 'she', use the base verb with -s in present simple."
+  },
+  {
+    "question": "Which of these is the correct form?",
+    "options": [
+      "They play not football on Sundays.",
+      "They don't play football on Sundays.",
+      "They isn't play football on Sundays."
+    ],
+    "answer": "They don't play football on Sundays.",
+    "tip": "Negative present simple: 'don't' + base verb for I/you/we/they."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I enjoy reading books.",
+      "I enjoying reading books.",
+      "I enjoys reading books."
+    ],
+    "answer": "I enjoy reading books.",
+    "tip": "'Enjoy' is a stative verb — no -ing or -s with 'I'."
+  },
+  {
+    "question": "Which of these is in the present simple tense?",
+    "options": [
+      "He eats lunch now.",
+      "He eats lunch every day.",
+      "He is eating lunch every day."
+    ],
+    "answer": "He eats lunch every day.",
+    "tip": "Present simple is used for routines, not actions happening now."
+  },
+
+
+  {
+    "question": "Fill in the blank: We ______ (have) two children.",
+    "options": [
+      "have",
+      "has",
+      "having"
+    ],
+    "answer": "have",
+    "tip": "For 'we', 'you', and 'they', use the base form of the verb in present simple."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She don’t like pizza.",
+      "She doesn't like pizza.",
+      "She don't likes pizza."
+    ],
+    "answer": "She doesn't like pizza.",
+    "tip": "Use 'doesn't' for negative sentences with he/she/it."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "They go to the gym every week.",
+      "They going to the gym every week.",
+      "They are go to the gym every week."
+    ],
+    "answer": "They go to the gym every week.",
+    "tip": "In present simple, use the base verb: 'go' is correct."
+  },
+  {
+    "question": "Fill in the blank: I ______ (watch) TV every evening.",
+    "options": [
+      "watch",
+      "watches",
+      "watching"
+    ],
+    "answer": "watch",
+    "tip": "Use the base form 'watch' for I/you/we/they."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He don’t like the news.",
+      "He doesn't like the news.",
+      "He not likes the news."
+    ],
+    "answer": "He doesn't like the news.",
+    "tip": "Negative sentences with 'he/she/it' use 'doesn't' + base verb."
+  },
+  {
+    "question": "Fill in the blank: She ______ (enjoy) her new job.",
+    "options": [
+      "enjoy",
+      "enjoys",
+      "enjoying"
+    ],
+    "answer": "enjoys",
+    "tip": "'Enjoy' takes an -s for he/she/it in present simple."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I not know the answer.",
+      "I don't know the answer.",
+      "I doesn't know the answer."
+    ],
+    "answer": "I don't know the answer.",
+    "tip": "Negative sentences with 'I' use 'don't' + base verb."
+  }
+],
+  "past-simple": [
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I seen him yesterday.",
+      "I see him yesterday.",
+      "I saw him yesterday."
+    ],
+    "answer": "I saw him yesterday.",
+    "tip": "Use 'saw' as the past form of 'see' in past simple."
+  },
+  {
+    "question": "Fill in the blank: We ______ (visit) the museum last week.",
+    "options": [
+      "visited",
+      "visits",
+      "visiting"
+    ],
+    "answer": "visited",
+    "tip": "In past simple, use the base form of the verb with '-ed' for regular verbs."
+  },
+  {
+    "question": "Which sentence is in the past simple tense?",
+    "options": [
+      "I am watched the movie.",
+      "I watched the movie.",
+      "I will watch the movie."
+    ],
+    "answer": "I watched the movie.",
+    "tip": "Past simple uses the base form of the verb in the past (with 'ed' for regular verbs)."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "They was tired last night.",
+      "They were tired last night.",
+      "They tired last night."
+    ],
+    "answer": "They were tired last night.",
+    "tip": "Use 'were' for plural subjects (they, we, you) in past simple."
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "I eat breakfast at 8 a.m.",
+      "I ate breakfast at 8 a.m.",
+      "I eating breakfast at 8 a.m."
+    ],
+    "answer": "I ate breakfast at 8 a.m.",
+    "tip": "In past simple, use 'ate' as the past form of 'eat'."
+  },
+  {
+    "question": "Fill in the blank: He ______ (not go) to the party yesterday.",
+    "options": [
+      "didn't go",
+      "doesn't go",
+      "wasn't going"
+    ],
+    "answer": "didn't go",
+    "tip": "Use 'didn't' for negative sentences in the past simple with the base form of the verb."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I bought a new phone yesterday.",
+      "I buy a new phone yesterday.",
+      "I buying a new phone yesterday."
+    ],
+    "answer": "I bought a new phone yesterday.",
+    "tip": "'Bought' is the past form of 'buy' in past simple."
+  },
+  {
+    "question": "Which of these is the correct form?",
+    "options": [
+      "They didn't ate dinner yet.",
+      "They didn't eat dinner yet.",
+      "They don't ate dinner yet."
+    ],
+    "answer": "They didn't eat dinner yet.",
+    "tip": "With negative past simple, use 'didn't' + base verb (eat, not ate)."
+  },
+  {
+    "question": "Fill in the blank: I ______ (see) her at the concert last night.",
+    "options": [
+      "saw",
+      "seen",
+      "seeing"
+    ],
+    "answer": "saw",
+    "tip": "'Saw' is the past form of 'see' in past simple."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She gone to the store.",
+      "She went to the store.",
+      "She going to the store."
+    ],
+    "answer": "She went to the store.",
+    "tip": "'Went' is the past form of 'go'."
+  },
+  {
+    "question": "Fill in the blank: They ______ (finish) the project last week.",
+    "options": [
+      "finished",
+      "finishes",
+      "finishing"
+    ],
+    "answer": "finished",
+    "tip": "In past simple, use 'finished' as the past form of 'finish'."
+  },
+  {
+    "question": "Which of these sentences is correct?",
+    "options": [
+      "I wasn't watching TV last night.",
+      "I am not watching TV last night.",
+      "I didn't watch TV last night."
+    ],
+    "answer": "I didn't watch TV last night.",
+    "tip": "For negative sentences in past simple, use 'didn't' + base verb."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He didn't enjoyed the movie.",
+      "He didn't enjoy the movie.",
+      "He don't enjoyed the movie."
+    ],
+    "answer": "He didn't enjoy the movie.",
+    "tip": "With negative sentences in past simple, use the base verb after 'didn't'."
+  },
+  {
+    "question": "Fill in the blank: She ______ (read) a book last night.",
+    "options": [
+      "read",
+      "reads",
+      "reading"
+    ],
+    "answer": "read",
+    "tip": "The past form of 'read' is also 'read' (pronounced differently)."
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "They wasn't at the meeting.",
+      "They weren't at the meeting.",
+      "They don't were at the meeting."
+    ],
+    "answer": "They weren't at the meeting.",
+    "tip": "Use 'weren't' for the negative of 'were' in past simple."
+  },
+  {
+    "question": "Which of these is the correct past simple form?",
+    "options": [
+      "He writed a letter.",
+      "He wrote a letter.",
+      "He written a letter."
+    ],
+    "answer": "He wrote a letter.",
+    "tip": "'Wrote' is the correct past form of 'write'."
+  }
+],
+    
+"present-continuous": [
+  {
+    "question": "Which sentence is in the present continuous tense?",
+    "options": [
+      "I am reading a book right now.",
+      "I read a book right now.",
+      "I will read a book right now."
+    ],
+    "answer": "I am reading a book right now.",
+    "tip": "Present continuous is formed with 'am/is/are' + verb-ing."
+  },
+  {
+    "question": "Fill in the blank: She ______ (watch) a movie at the moment.",
+    "options": [
+      "is watching",
+      "watches",
+      "watching"
+    ],
+    "answer": "is watching",
+    "tip": "Use 'is' + verb-ing for singular subjects in present continuous."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "They are going to the park.",
+      "They going to the park.",
+      "They goes to the park."
+    ],
+    "answer": "They are going to the park.",
+    "tip": "Use 'are' + verb-ing for plural subjects in present continuous."
+  },
+  {
+    "question": "Which of these is in the present continuous tense?",
+    "options": [
+      "I am cooking dinner.",
+      "I cook dinner.",
+      "I will cook dinner."
+    ],
+    "answer": "I am cooking dinner.",
+    "tip": "Present continuous is used for actions happening right now."
+  },
+  {
+    "question": "Fill in the blank: He ______ (study) for his exams now.",
+    "options": [
+      "is studying",
+      "studying",
+      "study"
+    ],
+    "answer": "is studying",
+    "tip": "Use 'is' + verb-ing for present continuous."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She is reading a book.",
+      "She reads a book.",
+      "She read a book."
+    ],
+    "answer": "She is reading a book.",
+    "tip": "Present continuous expresses an action happening right now, so use 'is' + verb-ing."
+  },
+  {
+    "question": "Which sentence is in the present continuous tense?",
+    "options": [
+      "He is playing soccer now.",
+      "He played soccer now.",
+      "He play soccer now."
+    ],
+    "answer": "He is playing soccer now.",
+    "tip": "In present continuous, use 'is/are' + verb-ing for actions happening at the moment."
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "I am not working today.",
+      "I don't working today.",
+      "I am not work today."
+    ],
+    "answer": "I am not working today.",
+    "tip": "For negative sentences in present continuous, use 'am/is/are not' + verb-ing."
+  },
+  {
+    "question": "Fill in the blank: They ______ (arrive) now.",
+    "options": [
+      "are arriving",
+      "arrive",
+      "arrives"
+    ],
+    "answer": "are arriving",
+    "tip": "Use 'are' + verb-ing for plural subjects in present continuous."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She is not liking the food.",
+      "She does not like the food.",
+      "She does not likes the food."
+    ],
+    "answer": "She does not like the food.",
+    "tip": "Note: 'like' is a stative verb and is not used in continuous tenses."
+  },
+  {
+    "question": "Which of these is in the present continuous tense?",
+    "options": [
+      "We are going to the beach.",
+      "We go to the beach.",
+      "We will go to the beach."
+    ],
+    "answer": "We are going to the beach.",
+    "tip": "Use 'are' + verb-ing to describe actions happening right now or in the near future."
+  }
+],
+
+"past-continuous": [
+  {
+    "question": "Which sentence is in the past continuous tense?",
+    "options": [
+      "She was watching TV when I called her.",
+      "She watched TV when I called her.",
+      "She watching TV when I called her."
+    ],
+    "answer": "She was watching TV when I called her.",
+    "tip": "Past continuous is formed with 'was/were' + verb-ing, used for actions happening at a specific moment in the past."
+  },
+  {
+    "question": "Fill in the blank: He ______ (sleep) when I arrived.",
+    "options": [
+      "was sleeping",
+      "sleep",
+      "is sleeping"
+    ],
+    "answer": "was sleeping",
+    "tip": "Use 'was/were' + verb-ing to describe an action that was happening when something else occurred in the past."
+  },
+  {
+    "question": "Which of these is in the past continuous tense?",
+    "options": [
+      "I was working at 8 o'clock.",
+      "I worked at 8 o'clock.",
+      "I will work at 8 o'clock."
+    ],
+    "answer": "I was working at 8 o'clock.",
+    "tip": "Past continuous is used to describe actions that were happening at a particular moment in the past."
+  },
+  {
+    "question": "Fill in the blank: They ______ (talk) when I entered the room.",
+    "options": [
+      "were talking",
+      "talked",
+      "are talking"
+    ],
+    "answer": "were talking",
+    "tip": "For plural subjects in the past continuous, use 'were' + verb-ing."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "We were watching a movie when the lights went out.",
+      "We watched a movie when the lights went out.",
+      "We watch a movie when the lights went out."
+    ],
+    "answer": "We were watching a movie when the lights went out.",
+    "tip": "Use past continuous to describe what was happening when something else interrupted or occurred."
+  },
+  {
+    "question": "Which of these is in the past continuous tense?",
+    "options": [
+      "I was reading when you called.",
+      "I read when you called.",
+      "I am reading when you called."
+    ],
+    "answer": "I was reading when you called.",
+    "tip": "Past continuous emphasizes an action that was in progress in the past when another action occurred."
+  },
+  {
+    "question": "Fill in the blank: She ______ (study) when I arrived.",
+    "options": [
+      "was studying",
+      "studied",
+      "is studying"
+    ],
+    "answer": "was studying",
+    "tip": "Use 'was/were' + verb-ing to describe an action that was ongoing in the past."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I was cooking dinner when the phone rang.",
+      "I cooked dinner when the phone rang.",
+      "I cook dinner when the phone rang."
+    ],
+    "answer": "I was cooking dinner when the phone rang.",
+    "tip": "Past continuous is used to show that one action was in progress when another action occurred."
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "They was playing basketball at 6 pm.",
+      "They were playing basketball at 6 pm.",
+      "They played basketball at 6 pm."
+    ],
+    "answer": "They were playing basketball at 6 pm.",
+    "tip": "Use 'was/were' + verb-ing to describe an action happening at a specific time in the past."
+  },
+  {
+    "question": "Fill in the blank: She ______ (not listen) when I told her the news.",
+    "options": [
+      "wasn't listening",
+      "didn't listen",
+      "doesn't listen"
+    ],
+    "answer": "wasn't listening",
+    "tip": "Use 'was/were not' + verb-ing to form the negative in the past continuous."
+  }
+],
+"modals": [
+  {
+    "question": "Which of these sentences is correct?",
+    "options": [
+      "I can swim very fast.",
+      "I can to swim very fast.",
+      "I can swimming very fast."
+    ],
+    "answer": "I can swim very fast.",
+    "tip": "After modal verbs like 'can,' we use the base form of the verb (swim, not 'to swim' or 'swimming')."
+  },
+  {
+    "question": "Fill in the blank: You ______ (study) for the exam tomorrow.",
+    "options": [
+      "should study",
+      "must study",
+      "may study"
+    ],
+    "answer": "must study",
+    "tip": "'Must' is used for something necessary or mandatory."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He may go to the party.",
+      "He can to go to the party.",
+      "He may going to the party."
+    ],
+    "answer": "He may go to the party.",
+    "tip": "'May' is used to express possibility or permission."
+  },
+  {
+    "question": "Fill in the blank: She ______ (not) go to the concert because she was sick.",
+    "options": [
+      "couldn't",
+      "can't",
+      "mustn't"
+    ],
+    "answer": "couldn't",
+    "tip": "'Couldn't' is used to express inability in the past."
+  },
+  {
+    "question": "Which of these sentences is correct?",
+    "options": [
+      "You should to study for the test.",
+      "You should study for the test.",
+      "You should studying for the test."
+    ],
+    "answer": "You should study for the test.",
+    "tip": "'Should' is followed by the base form of the verb (study, not 'to study' or 'studying')."
+  },
+  {
+    "question": "Which of these sentences is correct?",
+    "options": [
+      "She can sings very well.",
+      "She can sing very well.",
+      "She can singing very well."
+    ],
+    "answer": "She can sing very well.",
+    "tip": "After modal verbs like 'can,' use the base form of the verb (sing, not 'sings' or 'singing')."
+  },
+  {
+    "question": "Fill in the blank: He ______ (might) be at home now.",
+    "options": [
+      "might",
+      "may",
+      "should"
+    ],
+    "answer": "might",
+    "tip": "'Might' expresses a possibility, typically weaker than 'may.'"
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "We may go to the park tomorrow.",
+      "We may to go to the park tomorrow.",
+      "We may going to the park tomorrow."
+    ],
+    "answer": "We may go to the park tomorrow.",
+    "tip": "'May' is followed by the base form of the verb (go)."
+  },
+  {
+    "question": "Fill in the blank: She ______ (not) speak Spanish.",
+    "options": [
+      "can't",
+      "couldn't",
+      "shouldn't"
+    ],
+    "answer": "can't",
+    "tip": "'Can't' is used to express inability in the present."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He must to finish his homework.",
+      "He must finish his homework.",
+      "He must finished his homework."
+    ],
+    "answer": "He must finish his homework.",
+    "tip": "'Must' is followed by the base form of the verb (finish)."
+  }
+],
     "present-perfect": [
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I have visited London three times.",
-          "I visited London three times.",
-          "I have visit London three times."
-        ],
-        "answer": "I have visited London three times."
-      },
-      {
-        "question": "Fill in the blank: She ______ (just arrive) at the airport.",
-        "options": [
-          "has just arrived",
-          "arrived just",
-          "have just arrived"
-        ],
-        "answer": "has just arrived"
-      },
-      {
-        "question": "Which of these is the correct form?",
-        "options": [
-          "They have finished the project.",
-          "They finished the project.",
-          "They has finished the project."
-        ],
-        "answer": "They have finished the project."
-      },
-      {
-        "question": "Fill in the blank: I ______ (never be) to Paris.",
-        "options": [
-          "have never been",
-          "never been",
-          "was never"
-        ],
-        "answer": "have never been"
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "She has lived here for five years.",
-          "She have lived here for five years.",
-          "She live here for five years."
-        ],
-        "answer": "She has lived here for five years."
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I have eaten already.",
-          "I ate already.",
-          "I eating already."
-        ],
-        "answer": "I have eaten already."
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "We have seen that movie before.",
-          "We seen that movie before.",
-          "We has seen that movie before."
-        ],
-        "answer": "We have seen that movie before."
-      },
-      {
-        "question": "Fill in the blank: He ______ (not finish) his homework yet.",
-        "options": [
-          "hasn't finished",
-          "haven't finished",
-          "not finished"
-        ],
-        "answer": "hasn't finished"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "She have just finished her dinner.",
-          "She has just finished her dinner.",
-          "She had just finished her dinner."
-        ],
-        "answer": "She has just finished her dinner."
-      },
-      {
-        "question": "Fill in the blank: They ______ (already leave).",
-        "options": [
-          "have already left",
-          "already left",
-          "had already left"
-        ],
-        "answer": "have already left"
-      }
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I have visited London three times.",
+      "I visited London three times.",
+      "I have visit London three times."
     ],
-    "past-perfect": [
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I had finished my homework before I went to bed.",
-          "I finished my homework before I went to bed.",
-          "I had finish my homework before I went to bed."
-        ],
-        "answer": "I had finished my homework before I went to bed."
-      },
-      {
-        "question": "Fill in the blank: He ______ (already leave) when I arrived.",
-        "options": [
-          "had already left",
-          "already left",
-          "has already left"
-        ],
-        "answer": "had already left"
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "She had read the book before the class started.",
-          "She read the book before the class started.",
-          "She had reads the book before the class started."
-        ],
-        "answer": "She had read the book before the class started."
-      },
-      {
-        "question": "Which sentence is in the past perfect tense?",
-        "options": [
-          "By the time I arrived, they had left.",
-          "By the time I arrived, they left.",
-          "By the time I arrived, they leave."
-        ],
-        "answer": "By the time I arrived, they had left."
-      },
-      {
-        "question": "Fill in the blank: They ______ (finish) the project by the time we arrived.",
-        "options": [
-          "had finished",
-          "finished",
-          "have finished"
-        ],
-        "answer": "had finished"
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "He had eaten dinner when I called him.",
-          "He eaten dinner when I called him.",
-          "He had ate dinner when I called him."
-        ],
-        "answer": "He had eaten dinner when I called him."
-      },
-      {
-        "question": "Which of these sentences is correct?",
-        "options": [
-          "We had walked for hours before we found a place to eat.",
-          "We walked for hours before we found a place to eat.",
-          "We have walked for hours before we found a place to eat."
-        ],
-        "answer": "We had walked for hours before we found a place to eat."
-      },
-      {
-        "question": "Fill in the blank: I ______ (not see) him before the meeting.",
-        "options": [
-          "hadn't seen",
-          "haven't seen",
-          "didn't see"
-        ],
-        "answer": "hadn't seen"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "They had already eaten when we arrived.",
-          "They already ate when we arrived.",
-          "They already eat when we arrived."
-        ],
-        "answer": "They had already eaten when we arrived."
-      },
-      {
-        "question": "Fill in the blank: She ______ (never be) to Japan before.",
-        "options": [
-          "had never been",
-          "never been",
-          "has never been"
-        ],
-        "answer": "had never been"
-      }
+    "answer": "I have visited London three times.",
+    "tip": "The present perfect is used to talk about experiences up to the present moment."
+  },
+  {
+    "question": "Fill in the blank: She ______ (just arrive) at the airport.",
+    "options": [
+      "has just arrived",
+      "arrived just",
+      "have just arrived"
     ],
-    "future-simple": [
-      {
-        "question": "Which sentence is in the future simple tense?",
-        "options": [
-          "I will go to the store tomorrow.",
-          "I am going to the store tomorrow.",
-          "I go to the store tomorrow."
-        ],
-        "answer": "I will go to the store tomorrow."
-      },
-      {
-        "question": "Fill in the blank: She ______ (visit) us next week.",
-        "options": [
-          "will visit",
-          "visits",
-          "is visiting"
-        ],
-        "answer": "will visit"
-      },
-      {
-        "question": "Which of these is correct?",
-        "options": [
-          "I will call you when I arrive.",
-          "I calls you when I arrive.",
-          "I am calling you when I arrive."
-        ],
-        "answer": "I will call you when I arrive."
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "We are going to buy a new house next year.",
-          "We will buying a new house next year.",
-          "We will buy a new house next year."
-        ],
-        "answer": "We will buy a new house next year."
-      },
-      {
-        "question": "Which of these sentences is in the future simple tense?",
-        "options": [
-          "She will call you after dinner.",
-          "She is calling you after dinner.",
-          "She calls you after dinner."
-        ],
-        "answer": "She will call you after dinner."
-      },
-      {
-        "question": "Fill in the blank: They ______ (travel) to Japan next year.",
-        "options": [
-          "will travel",
-          "travel",
-          "are traveling"
-        ],
-        "answer": "will travel"
-      },
-      {
-        "question": "Which of these sentences is in the future simple tense?",
-        "options": [
-          "He will play soccer tomorrow.",
-          "He is playing soccer tomorrow.",
-          "He plays soccer tomorrow."
-        ],
-        "answer": "He will play soccer tomorrow."
-      },
-      {
-        "question": "Fill in the blank: I ______ (call) you when I get home.",
-        "options": [
-          "will call",
-          "am calling",
-          "call"
-        ],
-        "answer": "will call"
-      },
-      {
-        "question": "Which sentence is correct?",
-        "options": [
-          "I will be arriving at 6 p.m.",
-          "I will arrive at 6 p.m.",
-          "I will arrives at 6 p.m."
-        ],
-        "answer": "I will arrive at 6 p.m."
-      },
-      {
-        "question": "Which of these is in the future simple tense?",
-        "options": [
-          "They will visit us next weekend.",
-          "They are visiting us next weekend.",
-          "They visit us next weekend."
-        ],
-        "answer": "They will visit us next weekend."
-      }
-    ]
+    "answer": "has just arrived",
+    "tip": "For actions that have recently happened, use 'has/have + just + past participle.'"
+  },
+  {
+    "question": "Which of these is the correct form?",
+    "options": [
+      "They have finished the project.",
+      "They finished the project.",
+      "They has finished the project."
+    ],
+    "answer": "They have finished the project.",
+    "tip": "The present perfect uses 'have/has + past participle.'"
+  },
+  {
+    "question": "Fill in the blank: I ______ (never be) to Paris.",
+    "options": [
+      "have never been",
+      "never been",
+      "was never"
+    ],
+    "answer": "have never been",
+    "tip": "Use 'have/has + never + past participle' to express actions that have not happened."
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "She has lived here for five years.",
+      "She have lived here for five years.",
+      "She live here for five years."
+    ],
+    "answer": "She has lived here for five years.",
+    "tip": "Use 'have/has + past participle' for experiences that started in the past and continue to the present."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I have eaten already.",
+      "I ate already.",
+      "I eating already."
+    ],
+    "answer": "I have eaten already.",
+    "tip": "Use the present perfect to describe actions completed in the past with a connection to the present."
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "We have seen that movie before.",
+      "We seen that movie before.",
+      "We has seen that movie before."
+    ],
+    "answer": "We have seen that movie before.",
+    "tip": "The present perfect is used to describe experiences or actions that have occurred at an unspecified time."
+  },
+  {
+    "question": "Fill in the blank: He ______ (not finish) his homework yet.",
+    "options": [
+      "hasn't finished",
+      "haven't finished",
+      "not finished"
+    ],
+    "answer": "hasn't finished",
+    "tip": "In negative sentences, use 'has/have + not + past participle.'"
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She have just finished her dinner.",
+      "She has just finished her dinner.",
+      "She had just finished her dinner."
+    ],
+    "answer": "She has just finished her dinner.",
+    "tip": "Use 'has/have just + past participle' for actions completed recently."
+  },
+  {
+    "question": "Fill in the blank: They ______ (already leave).",
+    "options": [
+      "have already left",
+      "already left",
+      "had already left"
+    ],
+    "answer": "have already left",
+    "tip": "'Already' is used in the present perfect to indicate that something has happened before the present moment."
+  }
+],
+
+"past-perfect": [
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I had finished my homework before I went to bed.",
+      "I finished my homework before I went to bed.",
+      "I had finish my homework before I went to bed."
+    ],
+    "answer": "I had finished my homework before I went to bed.",
+    "tip": "Use the past perfect to describe an action that was completed before another action in the past."
+  },
+  {
+    "question": "Fill in the blank: He ______ (already leave) when I arrived.",
+    "options": [
+      "had already left",
+      "already left",
+      "has already left"
+    ],
+    "answer": "had already left",
+    "tip": "The past perfect uses 'had + past participle' to indicate an action completed before another past event."
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "She had read the book before the class started.",
+      "She read the book before the class started.",
+      "She had reads the book before the class started."
+    ],
+    "answer": "She had read the book before the class started.",
+    "tip": "The past perfect is used to show that one event happened before another event in the past."
+  },
+  {
+    "question": "Which sentence is in the past perfect tense?",
+    "options": [
+      "By the time I arrived, they had left.",
+      "By the time I arrived, they left.",
+      "By the time I arrived, they leave."
+    ],
+    "answer": "By the time I arrived, they had left.",
+    "tip": "The past perfect is formed with 'had + past participle' to describe actions that happened before another past action."
+  },
+  {
+    "question": "Fill in the blank: They ______ (finish) the project by the time we arrived.",
+    "options": [
+      "had finished",
+      "finished",
+      "have finished"
+    ],
+    "answer": "had finished",
+    "tip": "Use the past perfect to describe an action that was completed before another past action."
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "He had eaten dinner when I called him.",
+      "He eaten dinner when I called him.",
+      "He had ate dinner when I called him."
+    ],
+    "answer": "He had eaten dinner when I called him.",
+    "tip": "Use 'had + past participle' to express an action that occurred before another past action."
+  },
+  {
+    "question": "Which of these sentences is correct?",
+    "options": [
+      "We had walked for hours before we found a place to eat.",
+      "We walked for hours before we found a place to eat.",
+      "We have walked for hours before we found a place to eat."
+    ],
+    "answer": "We had walked for hours before we found a place to eat.",
+    "tip": "The past perfect is used to show an action that was completed before another action in the past."
+  },
+  {
+    "question": "Fill in the blank: I ______ (not see) him before the meeting.",
+    "options": [
+      "hadn't seen",
+      "haven't seen",
+      "didn't see"
+    ],
+    "answer": "hadn't seen",
+    "tip": "Use 'hadn't' for the negative form of past perfect."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "They had already eaten when we arrived.",
+      "They already ate when we arrived.",
+      "They already eat when we arrived."
+    ],
+    "answer": "They had already eaten when we arrived.",
+    "tip": "The past perfect is used to show an action completed before a specific moment in the past."
+  },
+  {
+    "question": "Fill in the blank: She ______ (never be) to Japan before.",
+    "options": [
+      "had never been",
+      "never been",
+      "has never been"
+    ],
+    "answer": "had never been",
+    "tip": "Use 'had never been' for actions that were not completed before a certain time in the past."
+  }
+],
+  "future-simple": [
+  {
+    "question": "Which sentence correctly expresses a decision made at the moment of speaking?",
+    "options": [
+      "I will go to the store tomorrow.",
+      "I am going to the store tomorrow.",
+      "I go to the store tomorrow."
+    ],
+    "answer": "I will go to the store tomorrow.",
+    "tip": "Use 'will' for spontaneous decisions made at the moment of speaking."
+  },
+  {
+    "question": "Which sentence indicates an intention to do something in the future, with no immediate evidence to support it?",
+    "options": [
+      "She is going to visit us next week.",
+      "She will visit us next week.",
+      "She visits us next week."
+    ],
+    "answer": "She is going to visit us next week.",
+    "tip": "Use 'going to' for intentions or predictions with present evidence or plans."
+  },
+  {
+    "question": "Which sentence correctly describes a scheduled event or timetable?",
+    "options": [
+      "The train leaves at 7 PM tonight.",
+      "The train will leave at 7 PM tonight.",
+      "The train is leaving at 7 PM tonight."
+    ],
+    "answer": "The train leaves at 7 PM tonight.",
+    "tip": "Use the present simple for scheduled events or timetables."
+  },
+  {
+    "question": "Which sentence correctly expresses a future arrangement or plan that has already been decided?",
+    "options": [
+      "I will meet my friends tomorrow.",
+      "I am meeting my friends tomorrow.",
+      "I meet my friends tomorrow."
+    ],
+    "answer": "I am meeting my friends tomorrow.",
+    "tip": "Use the present continuous for future plans or arrangements."
+  },
+  {
+    "question": "Which sentence correctly expresses a prediction based on evidence in the present?",
+    "options": [
+      "She will probably pass the exam.",
+      "She is going to pass the exam.",
+      "She passes the exam."
+    ],
+    "answer": "She is going to pass the exam.",
+    "tip": "Use 'going to' for predictions based on present evidence or intentions."
+  },
+  {
+    "question": "Fill in the blank: I ______ (probably go) to the party tomorrow if I finish my work.",
+    "options": [
+      "will probably go",
+      "am probably going",
+      "go"
+    ],
+    "answer": "will probably go",
+    "tip": "Use 'will' for decisions, predictions, or promises about the future."
+  },
+  {
+    "question": "Which sentence expresses a plan for the near future, with some preparation or arrangement?",
+    "options": [
+      "He is going to start his new job next week.",
+      "He starts his new job next week.",
+      "He will start his new job next week."
+    ],
+    "answer": "He is going to start his new job next week.",
+    "tip": "Use 'going to' for intentions or plans based on prior arrangements."
+  },
+  {
+    "question": "Which sentence correctly describes a refusal or a decision to not do something in the future?",
+    "options": [
+      "I will not attend the meeting tomorrow.",
+      "I am not attending the meeting tomorrow.",
+      "I don't attend the meeting tomorrow."
+    ],
+    "answer": "I will not attend the meeting tomorrow.",
+    "tip": "Use 'will' for refusals or decisions made at the moment of speaking."
+  },
+  {
+    "question": "Fill in the blank: The concert ______ (start) at 8 PM tomorrow.",
+    "options": [
+      "starts",
+      "will start",
+      "is starting"
+    ],
+    "answer": "starts",
+    "tip": "Use the present simple for scheduled or regular events (e.g., timetables)."
+  },
+  {
+    "question": "Which sentence correctly expresses a future event that has already been planned or arranged?",
+    "options": [
+      "I am going to visit my grandparents this weekend.",
+      "I will visit my grandparents this weekend.",
+      "I visit my grandparents this weekend."
+    ],
+    "answer": "I am going to visit my grandparents this weekend.",
+    "tip": "Use the present continuous for plans or arrangements."
+  }
+]
   }
   

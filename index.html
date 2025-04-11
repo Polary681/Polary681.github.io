@@ -14,6 +14,7 @@
         <h1>Welcome to the English Grammar Quiz</h1>
         <div class="page-select">
             <p>Select a topic:</p>
+            <button class="select-button" onclick="showRules()">View Grammar Rules</button>
             <button class="select-button" onclick="startQuiz('present-simple')">Present Simple</button>
             <button class="select-button" onclick="startQuiz('past-simple')">Past Simple</button>
             <button class="select-button" onclick="startQuiz('present-continuous')">Present Continuous</button>
@@ -36,6 +37,30 @@
         <div class="score" id="score">Score: 0</div>
         <div id="streak">🔥 Streak: 0</div>
         <div id="timer"></div>
+        <button id="return-home" onclick="location.reload()">Return to Topics</button>
+    </div>
+
+    <div class="quiz-container" id="rules-page" style="display: none;">
+        <h1>Grammar Rules</h1>
+        <div id="rules-content">
+            <button class="select-button" onclick="toggleRuleSection('present-simple')">Present Simple</button>
+            <div class="rule-section" id="rule-present-simple">
+                <p><strong>Usage:</strong> Used for habitual actions and general truths.</p>
+                <p><strong>Example:</strong> She <em>reads</em> every night.</p>
+            </div>
+    
+            <button class="select-button" onclick="toggleRuleSection('past-simple')">Past Simple</button>
+            <div class="rule-section" id="rule-past-simple">
+                <p><strong>Usage:</strong> Used for completed actions in the past.</p>
+                <p><strong>Example:</strong> He <em>went</em> to the store yesterday.</p>
+            </div>
+        </div>
+        <button id="return-home" onclick="goHome()">Return to Topics</button>
+    </div>
+
+    <div class="quiz-container" id="summary-page" style="display:none;">
+        <h1>Quiz Summary</h1>
+        <div id="summary-container"></div>
         <button id="return-home" onclick="location.reload()">Return to Topics</button>
     </div>
 

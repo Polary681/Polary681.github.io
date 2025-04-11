@@ -232,3 +232,17 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.rule-section {
+    display: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f0f8ff;
+    border-left: 4px solid #001b69;
+    border-radius: 5px;
+}
+.dark-mode .rule-section {
+    background-color: #2a2a2a;
+    border-left: 4px solid #fdd835;
+}
+
