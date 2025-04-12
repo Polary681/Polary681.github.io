@@ -97,7 +97,8 @@ function handleAnswer(selectedOption, correctAnswer, tip, questionIndex) {
     allOptions.forEach(option => {
         if (option.textContent === correctAnswer) {
             option.style.backgroundColor = "lightgreen";
-        } else if (option === selectedOption && !isCorrect) {
+        } 
+        else if (option === selectedOption && !isCorrect) {
             option.style.backgroundColor = "lightcoral";
             option.classList.add("shake");
             setTimeout(() => option.classList.remove("shake"), 500);
@@ -229,6 +230,34 @@ function updateTimerDisplay() {
     timerDisplay.textContent = `Time: ${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
 }
 
+
+function endMessage() {
+    const rightAnswers = attemptedQuestions.filter(({ index, userAnswer }) =>
+        questionsData[currentTopic][index].answer === userAnswer
+    );
+
+    const correctCount = rightAnswers.length;
+    const total = questionsData[currentTopic]?.length || 0;
+    let message = "";
+
+    if (correctCount < 3) {
+        message = "You need to repeat the rule.";
+    } 
+    else if (correctCount < 6) {
+        message = "You did well, repeat the rules a little more.";
+    } 
+    else if (correctCount < 8) {
+        message = "Good job!";
+    } 
+    else if (correctCount === total) {
+        message = "All questions answered correctly! Well done.";
+    } 
+    else {
+        message = "Nice!";
+    }
+
+    return message;
+}
 function endQuiz() {
     document.getElementById("quiz-page").style.display = "none";
     document.getElementById("summary-page").style.display = "block";
@@ -256,11 +285,14 @@ function endQuiz() {
     });
 
     const finalScore = document.createElement("div");
+    const messageBox = document.createElement("div");
     finalScore.innerHTML = `
         <p><strong>Final Score: ${score}/${topicQuestions.length}</strong></p>
         <p><strong>Streak: ${streak}</strong></p>
     `;
+    messageBox.innerHTML = `<p>${endMessage()}</p>`;
     summaryContainer.appendChild(finalScore);
+    summaryContainer.appendChild(messageBox);
 }
 
 function showRules() {
