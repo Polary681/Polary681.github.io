@@ -96,10 +96,20 @@ function handleAnswer(selectedOption, correctAnswer, tip, questionIndex) {
 
     allOptions.forEach(option => {
         if (option.textContent === correctAnswer) {
-            option.style.backgroundColor = "lightgreen";
+            if (document.body.classList.contains("dark-mode")){
+                option.style.backgroundColor = "darkgreen";
+            }
+            else{
+                option.style.backgroundColor = "lightgreen";
+            }
         } 
         else if (option === selectedOption && !isCorrect) {
-            option.style.backgroundColor = "lightcoral";
+            if (document.body.classList.contains("dark-mode")){
+                option.style.backgroundColor = "darkred";
+            }
+            else{
+                option.style.backgroundColor = "lightcoral";
+            }
             option.classList.add("shake");
             setTimeout(() => option.classList.remove("shake"), 500);
         }
